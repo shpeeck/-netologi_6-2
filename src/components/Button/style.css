@@ -1,0 +1,65 @@
+
+
+.card-button {
+  width: 30px;
+  height: 30px;
+  border: 1px solid black;
+  border-radius: 15px;
+  color: red;
+  background-color: white;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: -15px;
+  right: -15px;
+  cursor: pointer;
+}
+
+.card-button:hover {
+  width: 35px;
+  height: 35px;
+  border-radius: 18px;
+  top: -18px;
+  right: -18px;
+}
+
+.list-button {
+  width: 30px;
+  height: 30px;
+  border: 1px solid black;
+  border-radius: 15px;
+  color: red;
+  background-image: url(https://cdn-icons-png.flaticon.com/512/6812/6812056.png);
+  background-size: cover;
+  font-weight: bold;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.list-button:hover,
+.input-button:hover {
+  border-radius: 18px;
+  background-color: rgb(112, 111, 111);
+}
+
+.input-button {
+  width: 30px;
+  height: 30px;
+  border: 1px solid black;
+  border-radius: 15px;
+  color: red;
+  background-color: white;
+  background-image: url(https://cdn-icons-png.flaticon.com/512/724/724954.png);
+  background-size: cover;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+}
